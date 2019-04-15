@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine On 
+   RewriteRule ^(.*)$ public/$1 [L]
+
+   #RewriteEngine On
+ 
+  #RewriteCond %{REQUEST_FILENAME} -f
+  #RewriteRule ^(.+) $1 [L]
+ 
+  #RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} -f
+  #RewriteRule ^(.+) /public/$1 [L]
+ 
+  #Options +SymLinksIfOwnerMatch
+  #RewriteRule ^(.*)$ /public/ [QSA,L]
+</IfModule>

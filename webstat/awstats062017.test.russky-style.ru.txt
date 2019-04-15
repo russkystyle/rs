@@ -1,0 +1,951 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201706 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.test.russky-style.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2000                
+POS_TIME 2662                
+POS_VISITOR 27264               
+POS_DAY 28146               
+POS_DOMAIN 3530                
+POS_LOGIN 3765                
+POS_ROBOT 3920                
+POS_WORMS 4235                
+POS_EMAILSENDER 4366                
+POS_EMAILRECEIVER 4509                
+POS_SESSION 28553               
+POS_SIDER 28759               
+POS_FILETYPES 4644                
+POS_DOWNLOADS 4922                
+POS_OS 4991                
+POS_BROWSER 5175                
+POS_SCREENSIZE 5749                
+POS_UNKNOWNREFERER 5823                
+POS_UNKNOWNREFERERBROWSER 5910                
+POS_ORIGIN 5992                
+POS_SEREFERRALS 6134                
+POS_PAGEREFS 6300                
+POS_SEARCHWORDS 6448                
+POS_KEYWORDS 6600                
+POS_MISC 2324                
+POS_ERRORS 6659                
+POS_CLUSTER 3621                
+POS_SIDER_404 6810                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170615095818 6 916 8756151249356
+FirstTime 0
+LastTime 20170615003248
+LastUpdate 20170615100636 1 0 1 0 0
+TotalVisits 55                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 20                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 229 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 109 1020 88285944 60 77 14701324
+1 30 190 15705568 82 121 11764607
+2 0 0 0 2 3 6647
+3 0 0 0 1 4 21951
+4 1 25 2380760 2 10 34141
+5 0 0 0 0 5 10404
+6 0 0 0 1 11 31935
+7 24 51 5154087 20 21 3158860
+8 5 35 2570649 0 8 16526
+9 16 46 7091628 7 16 53371
+10 111 352 28671714 168 183 9712853
+11 133 370 36078478 71 118 4282334
+12 12 90 4814679 7 16 86900
+13 34 168 10669599 54 74 857599
+14 35 195 20154486 40 183 12436854
+15 117 427 50786440 89 251 15477617
+16 362 1199 108279352 268 594 32267384
+17 65 197 12847547 39 62 421674
+18 360 770 61164500 286 311 2958968
+19 112 566 40977687 34 44 343891
+20 256 1466 61853007 234 383 17372754
+21 689 1953 82930614 500 516 13987961
+22 158 714 26059298 66 226 19881053
+23 289 1733 86303063 162 181 21664322
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2918 11567 752779100
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+spider 1041 86883783 20170614200717 5
+yandex 34 71492 20170615040626 15
+bot[\s_+:,\.\;\/\\-] 11 67324 20170614170335 6
+favicon 5 50123 20170614202549 0
+crawl 2 14471 20170614220311 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 309 60648980 0 0
+png 4149 54839851 0 0
+ttf 240 52387840 0 0
+woff2 580 37521016 0 0
+woff 45 4050624 0 0
+php 2 9990 0 0
+html 280 3669317 0 0
+js 309 167209500 0 0
+jpg 3882 338836768 0 0
+Unknown 1771 33605214 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 26 0 644
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 13
+linuxandroid 631
+winxp 54
+winlong 6
+winnt 3344
+win2000 1
+win98 1
+linux 1056
+linuxfedora 1
+winvista 1493
+win7 4976
+bsdfreebsd 2
+win2003 1
+j2me 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 34
+opera8.54 1
+chrome59.0.3071.86 199
+opera9.22 1
+chrome31.0.1650.57 1
+opera9.00 2
+chrome31.0.1650.63 26
+opera9.02 1
+opera9.80 3
+chrome58.0.3029.110 4837
+konqueror2.2.2 1
+msie8.0 9
+chrome2.0.172.37 1
+opera9.62 1
+opera9.64 9
+opera9.24 1
+opera9.0 2
+firefox1.5.0.7 1
+chrome57.0.2987.137 28
+firefox53.0 4716
+firefox3.5.1 3
+chrome41.0.2272.118 1685
+firefox3.0.11 2
+opera9.51 1
+firefox1.5.0.9 2
+firefox1.0.7 1
+firefox1.5.0.6 1
+opera10.00 1
+firefox25.0 25
+mozilla 1
+firefox3.0.12 1
+opera9.60 1
+netscape6.1 1
+opera9.52 1
+firefox3.5 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 222 1392
+From1 0 0
+From2 7 7
+From3 0 0
+From4 2689 10168
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 2 2
+yandex 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 288 104077
+400 1 366333
+500 264 22157288
+301 40 13101
+404 1503 71807765
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 260
+/admin/photos/77/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/77/edit
+/PhotoAlbum/church_2/small/3.jpg 2 -
+/admin/news/4/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/news/4/edit
+/admin/photos/49/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/49/edit
+/PhotoAlbum/casual/preview/c_7.jpg 1 -
+/img/img/servises/transfer.img 12 http://test.russky-style.ru/servises
+/public/index.php/img/img/rooms/one_bed_1.jpg 1 http://test.russky-style.ru/public/index.php/servises
+/PhotoAlbum/selebreties/preview/sel_1_small.jpg 1 -
+/PhotoAlbum/child_1/small/cld17_sm.jpg 1 -
+/vechera-pod-bayan 5 http://test.russky-style.ru/articles
+/hudozhestvennaya-galereya 1 -
+/album 4 -
+/public/index.php/img/img/rooms/two_bed_1.jpg 1 http://test.russky-style.ru/public/index.php/servises
+/images/icons/news2.jpg 2 -
+/admin/photos/5/%7B%7B%20asset('img/logo3.png')%20%7D%7D 6 http://test.russky-style.ru/admin/photos/5/edit
+/admin/news/6/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/news/6/edit
+/admin/photos/38/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/38/edit
+/admin/photos/76/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/76/edit
+/admin/photos/31/%7B%7B%20asset('img/logo3.png')%20%7D%7D 6 http://test.russky-style.ru/admin/photos/31/edit
+/PhotoAlbum/med/small/med2_sm.jpg 1 -
+/img/articles/57655d300d42c.jpg 23 http://test.russky-style.ru/admin/articles/1/edit
+/PhotoAlbum/C61B6354.jpg 1 -
+/admin/photos/55/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/55/edit
+/PhotoAlbum/med/big/med8.jpg 1 -
+/PhotoAlbum/child_1/big/cld25.jpg 1 -
+/img/img/servises/adaptation.img 13 http://test.russky-style.ru/servises
+/PhotoAlbum/C61B6132.jpg 1 -
+/admin/comments/6/%7B%7B%20asset('img/logo3.png')%20%7D%7D 1 http://test.russky-style.ru/admin/comments/6/edit
+/admin/news/13/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/news/13/edit
+/images/reviews/gt.jpg 2 -
+/photo/img/albums/vyezdnoy_medosmotr/shortcut/mid_med9.JPG 2 -
+/admin/photos/12/%7B%7B%20asset('img/logo3.png')%20%7D%7D 2 http://test.russky-style.ru/admin/photos/12/edit
+/PhotoAlbum/C61B6109.jpg 2 -
+/admin/photos/27/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/27/edit
+/admin/photos/25/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/25/edit
+/otzyvy 1 -
+/PhotoAlbum/church_2/big/5.jpg 1 -
+/admin/photos/15/%7B%7B%20asset('img/logo3.png')%20%7D%7D 8 http://test.russky-style.ru/admin/photos/15/edit
+/news 2 -
+/v-nashem-pansionate-novyj-zhilec 1 -
+/images/news/church/big/1.jpg 1 -
+/PhotoAlbum/child_1/small/cld20_sm.jpg 1 -
+/PhotoAlbum/selebreties_2/small/13_sm.jpg 1 -
+/admin/photos/41/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/41/edit
+/img/img/albums/hor/preload/mid_chorus1.jpg 1 http://test.russky-style.ru/photo
+/admin/news/16/%7B%7B%20asset('img/logo3.png')%20%7D%7D 6 http://test.russky-style.ru/admin/news/16/edit
+/img/img/albums/koncert_detskogo_hudozhestvennogo_kollektiva_arlekino_/preload/mid_cld1.jpg 1 http://test.russky-style.ru/photo
+/PhotoAlbum/child_1/big/cld12.jpg 1 -
+/PhotoAlbum/casual/original/c_9.jpg 2 -
+/admin/photos/6/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/6/edit
+/PhotoAlbum/selebreties_2/big/9_bg.jpg 1 -
+/admin/photos/8/%7B%7B%20asset('img/logo3.png')%20%7D%7D 2 http://test.russky-style.ru/admin/photos/8/edit
+/PhotoAlbum/C61B6307.jpg 1 -
+/admin/photos/18/%7B%7B%20asset('img/logo3.png')%20%7D%7D 6 http://test.russky-style.ru/admin/photos/18/edit
+/img/img/servises/doctor.img 12 http://test.russky-style.ru/servises
+/hor 1 -
+/nasha-filmoteka 1 -
+/vnimanie-bonus 4 -
+/PhotoAlbum/casual/original/c_4.jpg 1 -
+/photo/img/albums/prichaschenie/preload/1.jpg 2 -
+/images/rooms/one_person/preview/one_bed_1_prw.jpg 1 -
+/vystuplenie-detskogo-ansamblya 5 -
+/admin/photos/69/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/69/edit
+/admin/photo-albums/38/%7B%7B%20asset('img/logo3.png')%20%7D%7D 3 http://test.russky-style.ru/admin/photo-albums/38/edit
+/PhotoAlbum/child_1/small/cld18_sm.jpg 1 -
+/PhotoAlbum/casual/preview/c_6.jpg 1 -
+/admin/pages/4/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/pages/4/edit
+/PhotoAlbum/church_2/big/3.jpg 1 -
+/PhotoAlbum/selebreties_2/big/8_bg.jpg 1 -
+/admin/photos/39/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/39/edit
+/admin/articles/1/%7B%7B%20asset('img/logo3.png')%20%7D%7D 16 http://test.russky-style.ru/admin/articles/1/edit
+/admin/photos/62/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/62/edit
+/admin/photos/11/%7B%7B%20asset('img/logo3.png')%20%7D%7D 2 http://test.russky-style.ru/admin/photos/11/edit
+/PhotoAlbum/selebreties_2/big/7_bg.jpg 1 -
+/admin/photos/9/%7B%7B%20asset('img/logo3.png')%20%7D%7D 2 http://test.russky-style.ru/admin/photos/9/edit
+/images/reviews/sidelka_otzyv.jpg 1 -
+/PhotoAlbum/casual/original/c_10.jpg 1 -
+/admin/photos/48/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/48/edit
+/admin/photos/59/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/59/edit
+/admin/news/10/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/news/10/edit
+/PhotoAlbum/church_2/small/2.jpg 2 -
+/PhotoAlbum/casual/original/c_12.jpg 2 -
+/PhotoAlbum/child_1/big/cld23.jpg 1 -
+/admin/pages/%7B%7B%20asset('img/logo3.png')%20%7D%7D 7 http://test.russky-style.ru/admin/pages/create
+/admin/photos/34/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/34/edit
+/PhotoAlbum/preview/C61B6245.jpg 1 -
+/admin/photos/63/%7B%7B%20asset('img/logo3.png')%20%7D%7D 7 http://test.russky-style.ru/admin/photos/63/edit
+/admin/photos/54/%7B%7B%20asset('img/logo3.png')%20%7D%7D 11 http://test.russky-style.ru/admin/photos/54/edit
+/admin/photos/4/%7B%7B%20asset('img/logo3.png')%20%7D%7D 3 http://test.russky-style.ru/admin/photos/4/edit
+/admin/photos/43/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/43/edit
+/admin/articles/3/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/articles/3/edit
+/admin/photos/47/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/47/edit
+/admin/pages/6/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/pages/6/edit
+/photo/img/albums/osvyaschenie/preload/min_1.JPG 2 -
+/img/img/servises/obsledovanie.img 12 http://test.russky-style.ru/servises
+/admin/photo-albums/40/%7B%7B%20asset('img/logo3.png')%20%7D%7D 2 http://test.russky-style.ru/admin/photo-albums/40/edit
+/admin/photo-albums/37/%7B%7B%20asset('img/logo3.png')%20%7D%7D 3 http://test.russky-style.ru/admin/photo-albums/37/edit
+/PhotoAlbum/casual/original/c_13.jpg 2 -
+/PhotoAlbum/selebreties/original/sel_4.jpg 1 -
+/PhotoAlbum/selebreties/preview/sel_12_small.jpg 1 -
+/photo/img/albums/osvyaschenie/preload/min_2.JPG 2 -
+/PhotoAlbum/selebreties/original/sel_8.jpg 1 -
+/admin/news/12/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/news/12/edit
+/admin/photos/10/%7B%7B%20asset('img/logo3.png')%20%7D%7D 2 http://test.russky-style.ru/admin/photos/10/edit
+/PhotoAlbum/C61B6209.jpg 1 -
+/admin/photos/40/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/40/edit
+/admin/photos/13/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/13/edit
+/admin/photos/42/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/42/edit
+/PhotoAlbum/C61B6192.jpg 3 -
+/admin/photos/46/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/46/edit
+/public/index.php/img/img/rooms/two_bed_2.jpg 1 http://test.russky-style.ru/public/index.php/servises
+/admin/news/9/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/news/9/edit
+/img/img/servises/pers_gyg.img 12 http://test.russky-style.ru/servises
+/prichashchenie-postoyalcev 1 -
+/admin/photos/30/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/30/edit
+/PhotoAlbum/med/big/med4.jpg 1 -
+/PhotoAlbum/selebreties_2/small/18_sm.jpg 1 -
+/admin/photos/53/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/53/edit
+/img/img/servises/treatment.img 13 http://test.russky-style.ru/servises
+/admin/photos/16/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/16/edit
+/public/index.php/img/img/rooms/three_bed_1.jpg 1 http://test.russky-style.ru/public/index.php/servises
+/admin/photos/20/%7B%7B%20asset('img/logo3.png')%20%7D%7D 6 http://test.russky-style.ru/admin/photos/20/edit
+/PhotoAlbum/preview/C61B6179.jpg 1 -
+/images/rooms/three_person/three_bed_1.jpg 1 -
+/admin/pages/2/%7B%7B%20asset('img/logo3.png')%20%7D%7D 3 http://test.russky-style.ru/admin/pages/2/edit
+/PhotoAlbum/child_1/big/cld8.jpg 1 -
+/%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D0%B8%D0%B9%20%D0%A2%D0%B0%D1%85%D1%82%D0%B0%D1%80%D0%BE%D0%B2 11 http://test.russky-style.ru/comments
+/images/rooms/two_person/preview/two_bed_2_prw.jpg 1 -
+/admin/photos/50/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/50/edit
+/admin/photos/57/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/57/edit
+/admin/photos/45/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/45/edit
+/admin/photos/73/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/73/edit
+/admin/pages/1/%7B%7B%20asset('img/logo3.png')%20%7D%7D 9 http://test.russky-style.ru/admin/pages/1/edit
+/%D0%93%D0%B5%D0%BD%D0%BD%D0%B0%D0%B4%D0%B8%D0%B9 1 -
+/PhotoAlbum/child_1/small/cld16_sm.jpg 2 -
+/PhotoAlbum/selebreties_2/big/3_bg.jpg 1 -
+/img/img/servises/leisure.img 12 http://test.russky-style.ru/servises
+/PhotoAlbum/church/big/2.jpg 2 -
+/admin/comments/7/%7B%7B%20asset('img/logo3.png')%20%7D%7D 1 http://test.russky-style.ru/admin/comments/7/edit
+/admin/pages/8/%7B%7B%20asset('img/logo3.png')%20%7D%7D 1 http://test.russky-style.ru/admin/pages/8/edit
+/PhotoAlbum/child_1/small/cld9_sm.jpg 1 -
+/admin/photo-albums/35/%7B%7B%20asset('img/logo3.png')%20%7D%7D 11 http://test.russky-style.ru/admin/photo-albums/35/edit
+/PhotoAlbum/casual/original/c_5.jpg 1 -
+/admin/photos/7/%7B%7B%20asset('img/logo3.png')%20%7D%7D 2 http://test.russky-style.ru/admin/photos/7/edit
+/map 4 -
+/PhotoAlbum/med/big/med5.jpg 1 -
+/admin/photos/35/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/35/edit
+/admin/photos/68/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/68/edit
+/admin/photos/52/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/52/edit
+/news/20 1 -
+/admin/comments/1/%7B%7B%20asset('img/logo3.png')%20%7D%7D 3 http://test.russky-style.ru/admin/comments/1/edit
+/admin/photos/37/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/37/edit
+/admin/pages/3/%7B%7B%20asset('img/logo3.png')%20%7D%7D 3 http://test.russky-style.ru/admin/pages/3/edit
+/PhotoAlbum/C61B6295.jpg 2 -
+/admin/photos/14/%7B%7B%20asset('img/logo3.png')%20%7D%7D 2 http://test.russky-style.ru/admin/photos/14/edit
+/admin/news/5/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/news/5/edit
+/admin/photo-albums/41/%7B%7B%20asset('img/logo3.png')%20%7D%7D 2 http://test.russky-style.ru/admin/photo-albums/41/edit
+/admin/photos/29/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/29/edit
+/PhotoAlbum/C61B6245.jpg 1 -
+/admin/user 2 http://test.russky-style.ru/admin/orders
+/admin/photos/44/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/photos/44/edit
+/PhotoAlbum/selebreties_2/small/14_sm.jpg 1 -
+/admin/photos/70/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/70/edit
+/admin/pages/5/%7B%7B%20asset('img/logo3.png')%20%7D%7D 3 http://test.russky-style.ru/admin/pages/5/edit
+/admin/%7B%7B%20asset('img/logo3.png')%20%7D%7D 548 http://test.russky-style.ru/admin/users
+/admin/users/%7B%7B%20asset('img/logo3.png')%20%7D%7D 1 http://test.russky-style.ru/admin/users/create
+/public/index.php/img/img/rooms/four_bed_2.jpg 1 http://test.russky-style.ru/public/index.php/servises
+/PhotoAlbum/church_2/small/1.jpg 1 -
+/img/img/albums/osvyaschenie/preload/mid_1.jpg 1 http://test.russky-style.ru/photo
+/%7B%7B%20asset('img/logo3.png')%20%7D%7D 29 http://test.russky-style.ru/admin
+/PhotoAlbum/church_2/small/4.jpg 1 -
+/PhotoAlbum/selebreties_2/small/12_sm.jpg 1 -
+/admin/comments/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/comments/create
+/admin/photos/22/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/22/edit
+/admin/news/18/%7B%7B%20asset('img/logo3.png')%20%7D%7D 6 http://test.russky-style.ru/admin/news/18/edit
+/admin/photos/33/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/33/edit
+/admin/news/3/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/news/3/edit
+/PhotoAlbum/casual/original/c_7.jpg 2 -
+/planovyj-vrachebnyj-osmotr 1 -
+/admin/photo-albums/36/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photo-albums/36/edit
+/admin/photos/21/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/photos/21/edit
+/PhotoAlbum/casual/original/c_14.jpg 2 -
+/images/news/church/small/2.jpg 1 -
+/admin/photos/75/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/75/edit
+/admin/news/14/%7B%7B%20asset('img/logo3.png')%20%7D%7D 13 http://test.russky-style.ru/admin/news/14/edit
+/admin/photo-albums/39/undefined 1 http://test.russky-style.ru/admin/photo-albums/39/edit
+/img/img/servises/feeding.img 13 http://test.russky-style.ru/servises
+/admin/photos/36/%7B%7B%20asset('img/logo3.png')%20%7D%7D 15 http://test.russky-style.ru/admin/photos/36/edit
+/admin/photos/58/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/58/edit
+/osvyashchenie-pansionata 2 http://test.russky-style.ru/comments
+/admin/servises/%7B%7B%20asset('img/logo3.png')%20%7D%7D 1 http://test.russky-style.ru/admin/servises/create
+/images/rooms/one_person/one_bed_1.jpg 1 -
+/PhotoAlbum/selebreties/original/sel_12.jpg 1 -
+/admin/news/1/%7B%7B%20asset('img/logo3.png')%20%7D%7D 16 http://test.russky-style.ru/admin/news/1/edit
+/PhotoAlbum/casual/original/c_2.jpg 1 -
+/admin/photos/71/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/71/edit
+/admin/articles/4/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/articles/4/edit
+/v-predverii-prazdnika 1 -
+/admin/comments/3/%7B%7B%20asset('img/logo3.png')%20%7D%7D 1 http://test.russky-style.ru/admin/comments/3/edit
+/admin/photos/67/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/67/edit
+/PhotoAlbum/med/big/med1.jpg 1 -
+/PhotoAlbum/selebreties/original/sel_6.jpg 1 -
+/public/index.php/img/img/rooms/one_bed_2.jpg 1 http://test.russky-style.ru/public/index.php/servises
+/PhotoAlbum/casual/preview/c_10.jpg 1 -
+/admin/pages/7/%7B%7B%20asset('img/logo3.png')%20%7D%7D 3 http://test.russky-style.ru/admin/pages/7/edit
+/admin/photos/23/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/photos/23/edit
+/PhotoAlbum/casual/original/c_3.jpg 1 -
+/admin/photo-albums/39/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/photo-albums/39/edit
+/admin/photos/60/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/60/edit
+/PhotoAlbum/casual/original/c_11.jpg 2 -
+/img/img/servises/hygiene.img 13 http://test.russky-style.ru/servises
+/images/nurce.jpg 1 -
+/PhotoAlbum/med/small/med6_sm.jpg 1 -
+/admin/news/11/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/news/11/edit
+/images/rooms/three_person/preview/three_bed_2_prw.jpg 1 -
+/admin/users/5/%7B%7B%20asset('img/logo3.png')%20%7D%7D 1 http://test.russky-style.ru/admin/users/5/edit
+/admin/photos/51/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/51/edit
+/img/img/servises/living.img 16 http://test.russky-style.ru/servises
+/admin/photo-albums/35/undefined 3 http://test.russky-style.ru/admin/photo-albums/35/edit
+/admin/photos/72/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/photos/72/edit
+/admin/news/2/%7B%7B%20asset('img/logo3.png')%20%7D%7D 6 http://test.russky-style.ru/admin/news/2/edit
+/admin/photos/19/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/19/edit
+/images/youtube.jpg 2 -
+/admin/photos/65/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/65/edit
+/public/index.php/img/img/rooms/three_bed_2.jpg 1 http://test.russky-style.ru/public/index.php/servises
+/img/img/servises/terapy.img 12 http://test.russky-style.ru/servises
+/news/21 1 -
+/PhotoAlbum/selebreties_2/small/5_sm.jpg 1 -
+/admin/photos/32/%7B%7B%20asset('img/logo3.png')%20%7D%7D 6 http://test.russky-style.ru/admin/photos/32/edit
+/PhotoAlbum/church_2/big/2.jpg 1 -
+/admin/photos/78/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/78/edit
+/admin/news/17/%7B%7B%20asset('img/logo3.png')%20%7D%7D 9 http://test.russky-style.ru/admin/news/17/edit
+/admin/news/8/%7B%7B%20asset('img/logo3.png')%20%7D%7D 6 http://test.russky-style.ru/admin/news/8/edit
+/admin/photos/17/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/17/edit
+/admin/photos/28/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/photos/28/edit
+/photo/img/albums/osvyaschenie/shortcut/min_5.jpg 2 -
+/PhotoAlbum/casual/original/c_6.jpg 2 -
+/PhotoAlbum/child_1/small/cld11_sm.jpg 1 -
+/PhotoAlbum/casual/preview/c_2.jpg 1 -
+/PhotoAlbum/selebreties_2/big/17_bg.jpg 1 -
+/admin/photos/74/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/74/edit
+/admin/photos/26/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/26/edit
+/admin/photos/3/%7B%7B%20asset('img/logo3.png')%20%7D%7D 6 http://test.russky-style.ru/admin/photos/3/edit
+/articles/2 1 -
+/admin/comments/2/%7B%7B%20asset('img/logo3.png')%20%7D%7D 1 http://test.russky-style.ru/admin/comments/2/edit
+/PhotoAlbum/casual/original/c_1.jpg 2 -
+/img/img/servises/gymnastic.img 13 http://test.russky-style.ru/servises
+/admin/articles/5/%7B%7B%20asset('img/logo3.png')%20%7D%7D 7 http://test.russky-style.ru/admin/articles/5/edit
+/admin/photos/79/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/79/edit
+/zakupka-novogo-oborudovaniya 1 -
+/admin/photos/66/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/66/edit
+/admin/photos/24/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/24/edit
+/admin/articles/2/%7B%7B%20asset('img/logo3.png')%20%7D%7D 12 http://test.russky-style.ru/admin/articles/2/edit
+/admin/photos/64/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/64/edit
+/admin/news/15/%7B%7B%20asset('img/logo3.png')%20%7D%7D 5 http://test.russky-style.ru/admin/news/15/edit
+/public/index.php/img/img/rooms/four_bed_1.jpg 1 http://test.russky-style.ru/public/index.php/servises
+/admin/news/7/%7B%7B%20asset('img/logo3.png')%20%7D%7D 7 http://test.russky-style.ru/admin/news/7/edit
+/admin/photos/61/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/61/edit
+/PhotoAlbum/selebreties/preview/sel_7_small.jpg 1 -
+/admin/photos/56/%7B%7B%20asset('img/logo3.png')%20%7D%7D 4 http://test.russky-style.ru/admin/photos/56/edit
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 20
+95.161.223.44 1357 4943 208309917 20170615000211
+85.114.21.102 1197 3594 333503864 20170614191437
+5.18.218.236 209 1181 66636222 20170615003248
+46.36.222.162 41 41 119274 20170614220321
+66.249.93.198 38 600 51147442 20170614210104
+66.249.93.200 31 540 41622074 20170614210104
+66.249.93.196 26 514 37879787 20170614210104
+93.185.29.236 7 62 1527293 20170614235244
+66.102.9.42 3 10 1609221 20170612122349
+66.102.9.46 2 13 841850 20170613010852
+91.210.146.170 1 1 15722 20170608093750
+176.14.238.157 1 1 15068 20170606090834
+176.195.160.233 0 2 1423133 
+176.193.133.41 1 1 11295 20170603211219
+213.191.2.182 1 3 1438201 20170606190226
+128.72.216.6 0 2 1422218 
+128.69.217.153 1 26 2506366 20170606215248
+95.221.203.19 0 11 681778 
+66.102.9.44 1 8 369393 20170612122348
+178.140.123.89 1 14 1698982 20170602044938
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20170601 17 45 5969018 1
+20170602 1 25 2380760 1
+20170603 5 31 3901695 2
+20170604 57 191 18769988 4
+20170605 205 666 65970946 2
+20170606 25 187 36885370 4
+20170608 184 423 40206240 5
+20170609 130 588 50979437 4
+20170610 0 335 12115002 0
+20170612 8 58 5452374 4
+20170613 339 1511 122297036 15
+20170614 1923 7358 384641884 11
+20170615 24 149 3209350 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 7
+5mn-15mn 5
+2mn-5mn 8
+30s-2mn 7
+15mn-30mn 2
+0s-30s 19
+30mn-1h 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 363
+/admin/photos 341 10703558 0 1
+/ 280 3669317 37 16
+/fonts/vendor/materialize-css/roboto/Roboto-Regular.woff2 175 11086272 0 2
+/fonts/vendor/materialize-css/roboto/Roboto-Light.woff2 148 9254592 1 10
+/servises 119 872393 2 0
+/fonts/vendor/materialize-css/roboto/Roboto-Medium.woff2 103 6541200 4 1
+/packages/sleepingowl/default/fonts/OpenSans-Italic.ttf 80 17031680 0 1
+/packages/sleepingowl/default/fonts/fontawesome-webfont.woff2 80 6095640 0 0
+/packages/sleepingowl/default/fonts/OpenSans-Regular.ttf 80 17388800 0 0
+/packages/sleepingowl/default/fonts/OpenSans-Bold.ttf 80 17967360 0 0
+/admin/photos/file/thumb/10 1 120 0 0
+/admin/photos/file/photo/56 1 118 0 0
+/admin/photos/file/photo/34 1 120 0 0
+/admin/photos/file/thumb/35 1 120 0 0
+/admin/news/13/edit 4 107011 0 0
+/admin/photos/file/thumb/29 1 121 0 0
+/news/hudozhestvennaya-galereya 1 2273 0 0
+/admin/photos/file/thumb/44 1 118 0 0
+/news/prichashchenie-postoyalcev 1 2353 0 0
+/admin/comments/6/edit 1 30396 0 0
+/admin/photos/78/edit 4 67151 0 0
+/admin/photos/6/edit 4 66916 0 0
+/admin/photos/file/photo/42 1 119 0 0
+/admin/photos/file/photo/72 1 120 0 0
+/admin/photos/file/thumb/5 1 120 0 0
+/admin/photos/file/thumb/22 1 120 0 0
+/admin/photos/file/photo/69 1 120 0 0
+/admin/photos/file/thumb/54 2 277 0 0
+/admin/photos/file/thumb/39 1 120 0 0
+/news/novyj-god 1 2475 0 0
+/admin/photos/file/thumb/28 1 120 0 0
+/admin/photos/21/edit 5 95077 0 0
+/admin/photos/9/edit 2 11059 0 0
+/admin/photos/file/photo/45 1 119 0 0
+/admin/photos/file/thumb/9 1 120 0 0
+/admin/photos/file/photo/29 1 121 0 0
+/admin/photos/32/edit 6 122909 0 0
+/news/v-predverii-prazdnika 1 2390 0 0
+/admin/photos/file/photo/7 1 121 0 0
+/admin/photos/file/thumb/50 1 120 0 0
+/admin/photos/12/edit 2 11070 0 0
+/admin/photos/file/photo/46 1 121 0 0
+/admin/photos/77/edit 4 67174 0 0
+/admin/photos/41/edit 4 66816 0 0
+/login 36 156151 6 2
+/fonts/vendor/materialize-css/roboto/Roboto-Light.woff 15 1345080 0 3
+/albums 33 172466 1 0
+/admin/photos/24/edit 4 66912 0 0
+/admin/news/1/edit 16 429948 0 0
+/admin/photos/26/edit 4 66933 0 0
+/admin/news/file/photo/16 1 157 0 0
+/articles 48 588842 2 0
+/admin/photos/file/photo/26 1 119 0 0
+/admin/photos/27/edit 4 66974 0 0
+/admin/photos/46/edit 4 66895 0 0
+/admin/photos/file/thumb/11 1 119 0 0
+/admin/photos/file/thumb/72 1 121 0 0
+/admin/photos/35/edit 4 66865 0 0
+/news 23 200790 0 2
+/admin/photos/65/edit 4 67182 0 0
+/admin/photos/18/edit 6 122944 0 0
+/admin/photos/file/thumb/19 1 118 0 0
+/admin/photos/file/photo/20 1 120 0 0
+/admin/photos/file/thumb/65 1 120 0 0
+/admin/photos/file/thumb/75 1 120 0 0
+/news/shahmatnyj-turnir 1 2429 0 0
+/fonts/vendor/materialize-css/roboto/Roboto-Medium.woff 12 1086720 0 1
+/admin/photos/file/photo/14 1 120 0 0
+/admin/news/image/photo/14 1 159 0 0
+/admin/photos/file/thumb/61 1 120 0 0
+/public/index.php 1 4995 0 0
+/admin/users/create 1 21407 0 0
+/admin/photos/30/edit 4 66890 0 0
+/admin/photos/64/edit 4 67310 0 0
+/admin/orders 3 57653 0 0
+/admin/photos/file/thumb/41 1 120 0 0
+/admin/photos/file/thumb/79 1 120 0 0
+/admin/photos/28/edit 5 95025 0 0
+/admin/photos/file/photo/39 1 118 0 0
+/album/osvyashchenie 3 9008 0 0
+/admin/pages/5/edit 3 71603 0 0
+/admin/photos/file/photo/10 1 120 0 0
+/admin/pages/4/edit 5 120514 0 0
+/about 14 175697 0 0
+/admin/photos/79/edit 4 67172 0 0
+/admin/news/12/edit 4 107364 0 0
+/admin/photos/file/thumb/31 2 277 0 0
+/admin/photos/43/edit 4 66905 0 0
+/admin/photos/file/photo/49 1 120 0 0
+/admin/photos/file/thumb/74 1 120 0 0
+/news/v-nashem-pansionate-novyj-zhilec 1 2458 0 0
+/admin/news/file/thumb/16 1 157 0 0
+/admin/photos/69/edit 4 67113 0 0
+/admin/news/5/edit 4 107518 1 1
+/admin/photo-albums/41/edit 2 50244 0 0
+/admin/photos/file/photo/17 1 119 0 0
+/album/hor-foto 6 65370 0 0
+/admin/photos/40/edit 4 66922 0 0
+/admin/photo-albums/36/edit 4 100481 0 0
+/admin/photos/file/photo/57 1 119 0 0
+/admin/photos/file/photo/8 2 240 0 0
+/admin/comments/3/edit 1 27763 0 0
+/admin/photos/20/edit 6 122821 0 0
+/admin/photos/file/thumb/21 1 120 0 0
+/news/rozhdestvo-hristovo 1 2328 0 0
+/admin/photos/15/edit 8 179175 0 0
+/admin/photos/file/photo/66 1 120 0 0
+/admin/photos/file/photo/18 1 120 0 0
+/admin/news/image/photo/18 1 159 0 0
+/admin/photos/image/photo/54 2 318 0 0
+/admin/photos/file/photo/58 1 120 0 0
+/admin/photos/10/edit 2 11073 0 0
+/admin/photos/file/thumb/60 1 120 0 0
+/admin/comments/2/edit 1 27762 0 0
+/article/sovety-kak-uluchshit-pamyat-v-pozhilom-vozraste 8 131392 0 1
+/admin/photos/54/edit 11 266005 0 0
+/admin/news/image/thumb/18 1 159 0 0
+/admin/photos/file/photo/47 1 121 0 0
+/admin/articles/3/edit 5 148207 0 0
+/admin/photos/file/photo/78 1 120 0 0
+/admin/pages/8/edit 1 24666 0 0
+/admin/photos/file/thumb/45 1 121 0 0
+/admin/photos/file/thumb/8 1 121 0 0
+/admin/news/10/edit 4 105896 0 0
+/admin/photos/13/edit 4 66550 0 0
+/admin/photos/file/photo/6 1 120 0 0
+/admin/photos/61/edit 4 66976 0 0
+/admin/photos/file/thumb/78 1 121 0 0
+/admin/users 6 143863 0 1
+/admin/news/8/edit 6 165228 0 0
+/admin/pages/2/edit 3 71960 0 0
+/admin/news/6/edit 4 107974 0 0
+/admin/pages/create 7 165069 0 0
+/admin/photos/file/thumb/70 1 120 0 0
+/admin/photos/34/edit 4 66929 0 0
+/admin/photos/file/thumb/48 1 120 0 0
+/admin/photos/file/thumb/12 1 120 0 0
+/admin/photos/file/thumb/71 1 120 0 0
+/admin/photos/file/thumb/55 1 120 0 0
+/admin/photos/file/photo/35 1 118 0 0
+/news/nasha-filmoteka 1 2438 0 0
+/album/nashi-budni 15 120259 0 0
+/packages/sleepingowl/default/fonts/glyphicons-halflings-regular.woff2 4 72112 0 0
+/admin/photos/file/thumb/36 2 277 0 0
+/admin/photos/45/edit 4 66863 0 0
+/admin/photo-albums/37/edit 3 74947 0 0
+/admin/photos/file/thumb/27 1 119 0 0
+/admin/photos/file/thumb/16 1 120 0 0
+/news/kreshchenie 1 2429 0 0
+/admin/photos/44/edit 5 95556 0 0
+/admin/photos/16/edit 4 66912 0 0
+/admin/photos/file/photo/62 1 121 0 0
+/article/uhod-za-lezhachimi-bolnymi-v-nashem-pansionate 5 83332 0 0
+/admin/articles/image/photo/1 1 159 0 0
+/admin/photos/file/photo/41 1 121 0 0
+/photo 1 4385 0 0
+/admin/photos/file/photo/5 1 120 0 0
+/admin/photos/49/edit 4 66877 0 0
+/admin/photos/file/thumb/68 1 120 0 0
+/admin/photos/70/edit 4 67146 0 0
+/article/uslugi-dlya-pozhilyh-lyudej-v-pansionate 1 4386 0 0
+/admin/photos/file/photo/65 1 120 0 0
+/admin/photos/file/photo/36 3 433 0 0
+/admin/photos/56/edit 4 66904 0 0
+/admin/photos/file/photo/30 1 120 0 0
+/admin/photos/62/edit 4 67004 0 0
+/admin/photos/60/edit 4 66926 0 0
+/admin/photos/file/thumb/42 1 120 0 0
+/admin/photos/file/photo/52 1 121 0 0
+/admin/photos/38/edit 4 66927 0 0
+/admin/photos/file/thumb/30 1 120 0 0
+/admin/photos/file/thumb/58 1 120 0 0
+/admin/photos/image/thumb/63 1 159 0 0
+/admin/photos/42/edit 4 66934 0 0
+/admin/photos/file/thumb/40 1 120 0 0
+/admin/news/14/edit 13 329123 0 0
+/admin/comments/create 4 109212 0 0
+/admin/news/image/thumb/14 1 159 0 0
+/admin/photos/39/edit 4 66852 0 0
+/admin/photos/file/thumb/32 1 119 0 0
+/admin/photos/4/edit 3 39726 0 0
+/news/literaturnye-vechera 1 2467 0 0
+/admin/photos/74/edit 4 67128 0 0
+/admin/photos/file/photo/11 1 120 0 0
+/admin/pages/6/edit 4 95890 0 0
+/admin/photos/file/thumb/59 1 120 0 0
+/admin/news/image/photo/17 1 159 0 0
+/admin/photos/file/thumb/4 1 120 0 0
+/admin/photos/52/edit 4 66893 0 0
+/admin 29 517383 0 0
+/admin/photos/image/photo/63 1 159 0 0
+/comments 29 362258 0 1
+/admin/photos/37/edit 4 66879 0 0
+/admin/photos/file/photo/22 1 119 0 0
+/admin/articles/4/edit 5 156271 0 0
+/news/planovyj-vrachebnyj-osmotr 1 2434 0 0
+/admin/photo-albums/39/edit 5 93716 0 0
+/admin/photos/file/photo/73 1 119 0 0
+/admin/photos/47/edit 4 66843 0 0
+/admin/photos/file/thumb/64 1 120 0 0
+/admin/photos/file/thumb/47 1 119 0 0
+/admin/photos/file/photo/54 2 277 0 0
+/admin/photos/23/edit 5 95062 0 0
+/admin/photos/file/thumb/76 1 118 0 0
+/admin/photos/file/photo/32 2 240 0 0
+/admin/photos/file/thumb/33 1 120 0 0
+/admin/photos/file/photo/40 1 120 0 0
+/fonts/vendor/materialize-css/roboto/Roboto-Regular.woff 14 1257592 1 3
+/admin/articles 40 1010800 0 2
+/admin/photos/file/thumb/7 1 120 0 0
+/admin/news 74 2991597 0 0
+/admin/photos/file/thumb/24 1 120 0 0
+/admin/photos/file/photo/75 1 121 0 0
+/admin/photos/file/thumb/15 1 120 0 0
+/admin/photos/file/thumb/63 2 276 0 0
+/album/vyezdnoj-medosmotr 3 11789 0 0
+/admin/photos/file/thumb/52 1 120 0 0
+/admin/photos/57/edit 4 66963 0 0
+/admin/photos/file/photo/59 1 120 0 0
+/admin/photos/29/edit 4 66910 0 0
+/admin/photos/file/thumb/13 1 120 0 0
+/admin/photos/file/photo/21 1 119 0 0
+/admin/photos/11/edit 2 11109 0 0
+/admin/photos/51/edit 4 66869 0 0
+/article/uhod-za-bolnymi-stradayushchimi-boleznyu-alcgejmera 3 25117 0 0
+/admin/photos/image/photo/36 1 159 0 0
+/admin/photos/22/edit 4 66873 0 0
+/admin/photo-albums/38/edit 3 78572 0 0
+/admin/photos/file/photo/19 1 121 0 0
+/admin/photos/file/photo/61 1 120 0 0
+/admin/news/15/edit 5 136389 0 0
+/admin/photos/7/edit 2 11067 0 0
+/admin/photos/file/thumb/66 1 120 0 0
+/admin/articles/1/edit 18 621453 0 0
+/admin/photos/file/thumb/37 1 120 0 0
+/admin/photos/file/photo/79 1 120 0 0
+/admin/servises 4 74691 0 0
+/admin/photos/file/photo/50 1 120 0 0
+/admin/pages/7/edit 3 71619 0 0
+/admin/photos/file/thumb/26 1 120 0 0
+/admin/photos/19/edit 4 66870 0 0
+/admin/news/3/edit 5 133254 0 0
+/admin/photos/file/photo/15 1 120 0 0
+/admin/photos/file/thumb/49 1 120 0 0
+/admin/photos/file/thumb/77 1 120 0 0
+/admin/photos/file/photo/31 2 275 0 0
+/admin/photos/58/edit 4 66921 0 0
+/admin/photos/75/edit 4 67119 0 0
+/admin/photos/file/photo/12 1 120 0 0
+/admin/photos/68/edit 4 67111 0 0
+/admin/photos/file/photo/76 1 117 0 0
+/admin/comments/1/edit 3 91386 0 0
+/admin/photos/25/edit 4 66932 0 0
+/admin/photos/file/photo/53 1 121 0 0
+/admin/photos/48/edit 4 66925 0 0
+/admin/photos/file/thumb/17 1 120 0 0
+/admin/photos/file/photo/37 1 120 0 0
+/admin/photos/file/thumb/67 1 120 0 0
+/admin/photos/59/edit 4 66961 0 0
+/admin/comments/7/edit 1 28573 0 0
+/admin/photos/image/thumb/36 2 318 0 0
+/admin/prices 2 38571 0 0
+/admin/photos/73/edit 4 67178 0 0
+/admin/comments 12 303741 0 0
+/album/prichashchenie 3 10015 0 0
+/admin/photos/file/thumb/46 1 120 0 0
+/admin/photos/17/edit 4 66911 0 0
+/admin/photos/file/photo/43 1 120 0 0
+/admin/photo-albums/40/edit 2 50489 0 0
+/admin/photos/file/thumb/3 1 118 0 0
+/admin/photos/8/edit 2 11072 0 0
+/admin/news/18/edit 6 168561 0 0
+/admin/photos/14/edit 2 11098 0 0
+/admin/photos/file/photo/70 1 120 0 0
+/news/vystuplenie-ansamblya 1 2376 0 0
+/admin/photos/image/thumb/54 2 318 0 0
+/article/professionalnaya-rabota-s-postoyalcami 1 3886 0 0
+/admin/photos/file/photo/9 2 240 0 0
+/admin/photos/53/edit 4 66849 0 0
+/admin/mainphotoalbum 2 38420 0 0
+/admin/photos/55/edit 4 66966 0 0
+/admin/photos/5/edit 6 123277 0 0
+/admin/users/5/edit 1 21776 0 0
+/admin/photos/67/edit 4 67126 0 0
+/admin/photos/file/photo/25 1 120 0 0
+/admin/news/16/edit 6 165874 0 0
+/admin/photos/file/photo/4 1 120 0 0
+/admin/photos/file/thumb/57 1 121 0 0
+/admin/photos/file/photo/74 1 120 0 0
+/admin/photos/file/photo/55 1 118 0 0
+/admin/photos/file/thumb/38 1 120 0 0
+/contacts 18 81208 0 0
+/admin/photos/file/photo/60 1 119 0 0
+/admin/photos/file/thumb/34 1 121 0 0
+/admin/photos/file/thumb/14 1 119 0 0
+/admin/photos/file/photo/3 1 120 0 0
+/admin/pages/3/edit 3 71685 0 0
+/admin/photos/file/photo/68 1 120 0 0
+/admin/photos/file/photo/33 1 119 0 0
+/news/vnimanie-bonus 2 11397 0 0
+/admin/photos/36/edit 15 378959 0 0
+/admin/news/2/edit 6 161691 0 0
+/admin/photos/file/thumb/6 1 120 0 0
+/admin/photos/file/photo/38 1 120 0 0
+/admin/photos/66/edit 4 67127 0 0
+/admin/photos/file/thumb/43 1 120 0 0
+/admin/photos/file/photo/23 1 121 0 0
+/admin/news/image/photo/1 1 159 0 0
+/news/vechera-pod-bayan 3 21858 0 0
+/admin/photos/file/thumb/20 1 120 0 0
+/admin/photos/71/edit 4 67161 0 0
+/admin/photos/file/photo/64 1 120 0 0
+/admin/photos/file/photo/16 1 119 0 0
+/fonts/vendor/materialize-css/roboto/Roboto-Bold.woff 4 361232 0 1
+/admin/news/4/edit 5 138529 0 0
+/admin/photo-albums 31 834562 0 1
+/admin/photos/file/thumb/18 1 119 0 0
+/admin/photos/file/thumb/69 1 121 0 0
+/admin/news/7/edit 7 188347 0 0
+/admin/photos/file/thumb/25 1 120 0 0
+/admin/photos/file/photo/51 1 120 0 0
+/admin/photos/file/thumb/62 1 121 0 0
+/album/koncert-kollektiva-arlekino 3 17623 0 0
+/album/hor 2 4636 0 0
+/admin/news/17/edit 9 251393 0 0
+/admin/photos/file/photo/71 1 120 0 0
+/admin/photos/file/thumb/73 1 120 0 0
+/admin/photos/file/photo/28 1 120 0 0
+/admin/photos/3/edit 6 126811 0 0
+/admin/news/9/edit 4 107045 0 0
+/news/osvyashchenie-pansionata 9 75585 0 0
+/admin/photos/63/edit 7 151957 0 0
+/admin/photos/file/photo/67 1 120 0 0
+/admin/photos/file/photo/24 1 120 0 0
+/admin/photos/file/thumb/51 1 118 0 0
+/admin/articles/5/edit 7 231529 0 0
+/admin/photos/76/edit 6 78212 0 0
+/news/zakupka-novogo-oborudovaniya 2 5112 0 0
+/admin/photos/72/edit 5 95318 0 0
+/admin/photos/file/photo/48 1 121 0 0
+/admin/photo-albums/35/edit 9 275575 0 1
+/admin/photos/33/edit 4 66934 0 0
+/admin/photos/file/thumb/56 1 120 0 0
+/admin/pages 35 920732 0 0
+/admin/news/image/thumb/17 1 159 0 0
+/admin/photos/50/edit 4 66892 0 0
+/admin/photos/file/photo/27 1 120 0 0
+/admin/photos/file/thumb/53 1 120 0 0
+/album/nashi-prazdniki 23 157544 0 0
+/admin/photos/file/photo/77 1 120 0 0
+/admin/photos/file/photo/13 1 120 0 0
+/admin/photos/file/photo/63 2 276 0 0
+/admin/articles/2/edit 12 375857 0 1
+/news/vystuplenie-detskogo-ansamblya 5 32541 0 0
+/admin/photos/file/thumb/23 1 120 0 0
+/admin/photos/file/photo/44 1 120 0 0
+/admin/news/11/edit 4 106973 0 0
+/admin/pages/1/edit 9 217478 0 0
+/news/vystuplenie-hora 1 2635 0 0
+/fonts/vendor/materialize-css/roboto/Roboto-Bold.woff2 70 4471200 0 3
+/index.php 1 4995 0 0
+/admin/servises/create 1 26493 0 0
+/admin/photos/31/edit 6 123506 0 0
+END_SIDER

@@ -1,0 +1,18 @@
+User-agent: *
+
+Disallow: /public/
+Disallow: /login
+
+Disallow: /admin
+
+Disallow: /register
+Disallow: /password*
+Disallow: /public/index.php*
+
+Disallow: *_escaped_fragment_=
+
+
+
+Sitemap: https://russky-style.ru/sitemap.xml
+
+Host: https://russky-style.ru

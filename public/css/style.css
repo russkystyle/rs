@@ -1,0 +1,662 @@
+body{
+    background-color: #f8f8f8;
+    font-family: Fira Sans;
+}
+.container{
+    min-width: 1200px;
+}
+.button{
+    background-color: #ff8822;
+    border-radius: 5px;
+    height: 39px;
+    width: 221px;
+    color: #ffffff;
+}
+#links{
+    position: relative;
+    top: 35px;
+    font-weight: 700;
+}
+#links ul{
+   
+}
+#links li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 5px;
+    padding-left: 10px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    line-height: 14px;
+    color: #313029;
+    font-weight: 400;    
+}
+#links li a {
+    text-decoration: none;
+    color: #313029;
+}
+#links li a:hover{
+    color: #ff8822;
+}
+.active_links{
+    color: #ff8822 !important;
+}
+h1{
+    font-family: Fira Sans;
+    font-size: 35px;
+    color: #313029;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 62px;
+}
+h2{
+    font-family: Fira Sans;
+    font-size: 26px;
+    line-height: 28px;
+    color: #313029;
+    font-weight: 500;
+}
+h3{
+    font-size: 21px;
+    line-height: 28px;
+    color: #313029;
+    font-weight: 500;
+}
+h4{
+    font-size: 21px;
+    line-height: 28px;
+    color: #313029;
+    font-weight: 500;
+}
+.text{
+    font-family: Fira Sans;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 300;
+}
+#header{
+    height: 79px;
+    background-color: #fff;
+}
+#logo{
+    display: inline-block;
+    position: relative;
+    left: 136px;
+    top: 20px;
+}
+
+
+
+#contacts{
+    display: inline-block;
+    position: relative;
+    font-family: Fira Sans;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ff8822;
+    font-weight: 500;
+    top: 20px;
+}
+.album{
+    position: relative;
+    top: -467px;
+    float: left;
+    opacity: 0.4;
+}
+
+#footer{
+    min-height: 143px;
+    background-color: #313029;
+    font-family: Fira Sans;
+    font-size: 12px;
+    line-height: 24px;
+    color: #f8f8f8;
+    font-weight: 300;
+
+}
+#left-col{
+    top: 29px;
+    left: 131px;
+}
+#right-col{
+    top: 29px;
+    left: 291px;
+}
+.main-block{
+    position: relative;
+    margin: 70px 110px 70px 110px;
+    min-height: 500px;
+    width: auto;
+}
+.info{
+    position: relative;
+    min-height: 295px;
+    min-width: 1170px;
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+.info2{
+    position: relative;
+/*    min-height: 295px;*/
+    min-width: 1170px;
+    padding: 0 115px 0 115px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/*Что мы предлагаем гостям*/
+.list_text{
+    margin-left: 10px;
+}
+.list_img{
+    float: left;
+    margin: 0 10px 5px 0;
+    width: 32px;
+    height: 32px;
+}
+.list_img2{
+    float: left;
+    margin: 0 20px 5px 0;
+}
+/*Основные услуги*/
+.album_img_servises{
+    position:relative;
+    width:172px;
+    height:172px;
+    display:block;
+    margin:0 20px 30px 0;
+    float:left;
+    overflow:hidden;
+    cursor: pointer;
+    background-color: rgba(255, 136, 34, 0.8);
+}
+.album_img_servises:hover .album_img_hover_servises{
+    opacity: 1;
+}
+.album_img_hover_servises{
+    position: absolute;
+    top: 0;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 136, 34, 0.8);
+    opacity: 0;
+    
+}
+.album_img_text_servises{
+    position:absolute;
+    bottom:20%;
+    width:100%;
+    color:#fff;
+    text-align:center;
+}
+/*End of base services*/
+.servises_table{
+    display: inline-block;
+    width:620px;
+    height:350px;
+    margin-right:18px;
+    float:left;
+}
+#servises_t_b_1{
+    height: 70px;
+    background-color: #ff8822;
+    padding: 25px 142px 0 21px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.servises_t_b_2{
+    min-height: 70px;
+    background-color: #ffffff;
+    padding: 25px 142px 0 21px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00acc1;
+    font-weight: 500;
+}
+.servises_t_b_3{
+    min-height: 70px;
+    background-color: #f8f8f8;
+    padding: 25px 142px 0 21px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00acc1;
+    font-weight: 500;
+}
+table {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    width:620px;
+    height:350px;
+}
+th{
+    height: 70px;
+    background-color: #ff8822;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+td{
+    height: 50px;
+    padding-left: 20px;
+   
+}
+.headline{
+    font-size: 14px;
+    line-height: 14px;
+    color: #00acc1;
+    text-decoration: underline; 
+}
+.servises_album_img{
+    position:relative;
+    width:460px;
+    height:306px;
+    display:block;
+    margin:0 20px 30px 0;
+    float:left;
+    overflow:hidden;
+    cursor: pointer;
+    background-color: rgba(255, 136, 34, 0.8);
+}
+.servises_album_img:hover .servises_album_img_hover{
+    opacity: 1;
+}
+.servises_album_img:hover .servises_album_img_text{
+    visibility: visible;
+}
+.servises_album_img_hover{
+    position: absolute;
+    top: 0;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 136, 34, 0.8);
+    opacity: 0;
+    
+}
+.servises_album_img_text{
+    position:absolute;
+    bottom:45%;
+    width:100%;
+    color:#fff;
+    text-align:center;
+    visibility: hidden;
+}
+.foto2{
+    position: relative;
+    display: inline-block;    
+    float: left;
+    margin-right: 15px;
+}
+.foto2_text{
+    margin-top: 20px;
+    width: 460px; 
+}
+.servises_booking{
+    font-size: 21px;
+    line-height: 28px;
+    color: #313029;
+    font-weight: 500;
+}
+.servises_button{
+    background-color: #ff8822;
+    border-radius: 5px;
+    height: 40px;
+    width: 260px;
+    color: #fff;
+}
+/*About Page Table. Production*/
+.list_txt2{
+    height: 30px;
+
+}
+.list_img3{
+    float: left;
+    padding-top: 5px;
+    margin: 0 20px 20px 0;
+}
+/*End of About Page Table. Production*/
+/*Main page Table. Production*/
+.main_list_txt{
+    height: 50px;
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+    color: #313029;
+    font-weight: 300;
+    line-height: 17px;
+    float: left;
+}
+.main_list_img{
+    float: left;
+    width: 30px;
+    /* height: 30px; */
+    margin: 0 30px 30px 0;
+}
+/*End of Main Page Table. Production*/
+/*Main Page News*/
+.news_header{
+    height: 30px;
+    font-size: 16px;
+    color: #313029;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.news_data_text{
+    font-size: 14px;
+    color: #313029;
+    font-weight: 300;
+}
+.news_data_img{
+    height: 16px;
+    width: 14px;
+    margin-right: 10px;
+}
+.news_text{
+    font-size: 14px;
+    line-height: 21px;
+    color: #313029;
+    font-weight: 300;
+}
+.news_folow{
+    font-size: 14px;
+    line-height: 21px;
+    color: #00acc1;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/*End of Main Page News*/
+
+.staff{
+    float: left;
+    margin-right: 20px;
+    width: 219px;
+}
+.staff_txt1{
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #313029;
+    font-weight: 500;
+}
+.staff_txt2{
+    text-align: center;
+    font-size: 21px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 300;
+}
+.staff_txt3{
+    font-size: 21px;
+    line-height: 28px;
+    color: #313029;
+    font-weight: 500;
+}
+.docs{
+    margin-bottom: 45px;
+}
+/*Main page list galery. Production*/
+.galery_img{
+    position:relative;
+    width:220px;
+    height:220px;
+    display:block;
+    float:left;
+    overflow:hidden;
+    cursor: pointer;
+    background-color: rgba(255, 136, 34, 0.8);
+}
+.galery_img:hover .galery_img_hover{
+    opacity: 1;
+}
+.galery_img_hover{
+    position: absolute;
+    top: 0;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 136, 34, 0.8);
+    opacity: 0;
+    
+}
+.galery_img_text{
+    position:absolute;
+    bottom:30%;
+    padding-left: 40%;
+    width:100%;
+    color:#fff;
+    visibility: hidden;
+}
+.galery_img:hover .galery_img_text{
+    visibility: visible;
+}
+.galery_text_bottom{
+    text-align:right;
+    padding-right:130px;
+    margin-top:-40px;
+    font-size: 21px;
+    line-height: 21px;
+    color: #00acc1;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/*End of Main page list galery. Production*/
+/*Album styles*/
+.album_img{
+    position:relative;
+    width:220px;
+    height:220px;
+    display:block;
+    margin:0 20px 30px 0;
+    float:left;
+    overflow:hidden;
+    cursor: pointer;
+    background-color: rgba(255, 136, 34, 0.8);
+}
+.album_img:hover .album_img_hover{
+    opacity: 1;
+}
+.album_img_hover{
+    position: absolute;
+    top: 0;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 136, 34, 0.8);
+    opacity: 0;
+    
+}
+.album_img_text{
+    position:absolute;
+    bottom:20%;
+    width:100%;
+    color:#fff;
+    text-align:center;
+}
+/*End */
+/*Map Info*/
+.info_header{
+    font-size: 21px;
+    line-height: 26px;
+    color: #313029;
+    font-weight: 500;
+}
+.info_header_img{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.info_text{
+    font-size: 16px;
+    line-height: 21px;
+    color: #313029;
+    font-weight: 300;
+}
+/*End of map info*/
+.review{
+    margin-bottom: 70px;
+}
+.reviews_name{
+    font-size: 21px;
+    line-height: 26px;
+    color: #313029;
+    font-weight: 500;
+}
+.reviews_date{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 300;
+}
+.reviews_text{
+    font-size: 16px;
+    line-height: 21px;
+    color: #313029;
+    font-weight: 300;
+}
+.reviews_news_header{
+    font-size: 21px;
+    line-height: 26px;
+    color: #313029;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.reviews_news_title{
+    font-size: 16px;
+    color: #313029;
+    font-weight: 500;
+}
+.reviews_news_date{
+    font-size: 14px;
+    font-family: FontAwesome;
+    color: #313029;
+    font-weight: 300;
+}
+.reviews_news_text{
+    font-size: 14px;
+    line-height: 21px;
+    color: #313029;
+    font-weight: 300;
+}
+.reviews_news_img{
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+.reviews_news_folow{
+    font-size: 14px;
+    line-height: 21px;
+    color: #00acc1;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/*End of Reviews*/
+/*Articles*/
+.articles_header{
+    font-size: 21px;
+    line-height: 26px;
+    color: #313029;
+    font-weight: 500;
+}
+.articles_date{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 300;
+}
+.articles_short_text{
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #313029;
+    font-weight: 300;
+}
+.articles_read{
+    font: 700 16px / 21px;
+    color: #00acc1;
+    text-decoration: underline;
+}
+/*End of Articles*/
+/*FORMS*/
+.order{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top:80px;
+    left: 770px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 0.00px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+}
+.order:hover{
+    opacity: 1;
+}
+.order_text1{
+    font-size: 19px;
+    padding-top: 20px;
+    line-height: 20px;
+    color: #313029;
+    font-weight: 700;
+    text-align: center;
+}
+.order_text2{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.7);
+}
+input{
+    width: 260px;
+    height: 39px;
+    border-radius: 5px;
+    margin: 15px 0 0 20px;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+}
+.reviews_order{
+    margin-bottom: 70px;
+    position: relative;
+    width: 461px;
+    height: 507px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+.reviews_order_form{
+    position: relative;
+    padding-top: 20px;
+}
+.reviews_order_header{
+    font-size: 21px;
+    line-height: 28px;
+    color: #313029;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+}
+/*End of FORMS*/
+/*Pagination Styles*/
+.news_pagination li a {
+    color: #ff8822;
+    font-weight: bold;
+}
+.news_pagination li a:hover {
+    color: #ff8822;
+    font-weight: bold;
+}
+.pagination .active span{
+   background-color: #ff8822;
+   color: #fff;
+}
+.pagination .active span:hover{
+   background-color: #ff8822;
+   color: #fff;
+}

@@ -1,0 +1,563 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201606 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.russky-style.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1995                
+POS_TIME 2678                
+POS_VISITOR 14860               
+POS_DAY 18261               
+POS_DOMAIN 3521                
+POS_LOGIN 3754                
+POS_ROBOT 3909                
+POS_WORMS 4311                
+POS_EMAILSENDER 4442                
+POS_EMAILRECEIVER 4585                
+POS_SESSION 18435               
+POS_SIDER 18644               
+POS_FILETYPES 4720                
+POS_DOWNLOADS 5003                
+POS_OS 5113                
+POS_BROWSER 5294                
+POS_SCREENSIZE 6009                
+POS_UNKNOWNREFERER 6083                
+POS_UNKNOWNREFERERBROWSER 6272                
+POS_ORIGIN 6354                
+POS_SEREFERRALS 6495                
+POS_PAGEREFS 6663                
+POS_SEARCHWORDS 8122                
+POS_KEYWORDS 9806                
+POS_MISC 2341                
+POS_ERRORS 10901               
+POS_CLUSTER 3610                
+POS_SIDER_404 11054               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160701000708 1035 270746 17073682979953
+FirstTime 20160627012533
+LastTime 20160630234234
+LastUpdate 20160701000743 23 0 22 0 0
+TotalVisits 100                 
+TotalUnique 79                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 80                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 95 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 18 338 48999954 21 57 2872652
+1 1 1 17471 9 64 1555627
+2 10 94 13692254 13 52 14302435
+3 2 2 53156 18 43 2617039
+4 0 0 0 23 34 1898101
+5 1 29 2081423 14 27 1672248
+6 0 0 0 32 43 2224150
+7 3 31 2163915 6 12 87259
+8 10 74 4860703 8 22 975323
+9 41 556 85699319 11 30 187083
+10 15 325 47984853 14 31 274924
+11 4 9 181502 15 19 189586
+12 59 894 105287926 21 39 206905
+13 44 584 71874365 21 47 4662042
+14 43 700 51273082 61 84 6904467
+15 1 59 11387459 22 44 1206858
+16 23 475 67623415 21 63 458232
+17 35 600 65892435 21 40 144374
+18 15 410 39089231 33 55 442775
+19 9 298 39744947 20 55 1089086
+20 3 140 24595036 13 33 271809
+21 10 124 32541280 13 77 11595032
+22 10 192 30520530 43 53 612549
+23 9 67 349557 19 61 5175867
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 366 6002 745913813
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+bot[\s_+:,\.\;\/\\-] 198 24733310 20160630124603 7
+yandex 180 4183503 20160630231838 18
+googlebot 177 17624416 20160630235804 8
+mj12bot 140 3245118 20160630234232 48
+mail\.ru 4 32284 20160628090205 2
+ia_archiver 3 31359 20160630092817 1
+favicon 2 53156 20160629103501 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 483 4142822 0 0
+eot 4 178004 0 0
+png 3152 556425280 0 0
+xsl 1 3404 0 0
+woff2 10 412460 0 0
+woff 9 500116 0 0
+html 150 4009986 0 0
+js 434 7605537 0 0
+jpg 1472 168771150 0 0
+Unknown 193 3394033 0 0
+gif 94 471021 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/robots.txt 84 0 2016
+/vendor/sitemap/styles/xml.xsl 1 0 3404
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 13
+linuxandroid 550
+winxp 379
+unix 2
+win2000 4
+winnt 2599
+linuxubuntu 4
+linux 1
+winvista 126
+win7 1581
+macosx 620
+j2me 103
+win2003 4
+Unknown 29
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 37
+safari7.0 29
+msie6.0 15
+chrome50.0.2661.89 31
+chrome49.0.2623.110 59
+android 125
+chrome47.5.2526.111 140
+chrome48.0.2564.116 2
+firefox4.0 4
+chrome31.0.1650.57 1
+opera9.80 191
+msie8.0 131
+chrome51.0.2704.81 53
+firefox3.5.8 1
+chrome50.0.2661.102 329
+chrome51.0.2704.84 59
+safari8.0 39
+chrome49.0.2623.112 102
+chrome47.0.2526.83 140
+netscape4.61 2
+safari6.0 2
+chrome35.0.1916.141 31
+chrome51.0.2704.79 62
+firefox12.0 1
+chrome32.0.1700.107 76
+firefox47.0 708
+chrome51.0.2704.103 2476
+nokia 208
+safari9.0 94
+mozilla 213
+chrome48.0.2564.109 2
+chrome33.0.1750.117 1
+msie10.0 11
+firefox3.6.18 3
+chrome46.0.2486.0 354
+chrome26.0.1410.63 1
+chrome44.0.2403.133 59
+safari 247
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Opera/9.80_(Android;_Opera_Mini/7.0.29703/28.2647;_U;_ru)_Presto/2.8.119_Version/11.10 20160627054637
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 57 57
+From1 1 1
+From2 54 54
+From3 29 29
+From4 225 5861
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 3 3
+yandex 51 51
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 17
+http://video-chat.in 3 3
+http://lipetsk.xrus.org 3 3
+http://uytmaster.ru 2 2
+http://vk.com/away.php 2 2
+http://mail.ru 2 2
+http://zoon.ru/redirect/ 2 2
+http://go.mail.ru/search 2 2
+http://link.2gis.ru/1.2/6D75EAF9/online/20160601/project38/70000001023289971/2gis.ru/76gA1b32497426CB92GCA3JJ6H2Hf7cA29CG4p8p3GI7033119J2J566n4B64G6AI5G1G1311333A5B8455HB3uvhyj2A8J398AAAACCA81448271g7/place=2&sid=423fe222-678a-4505-aed7-bf8fb0be73ff&user=def80f63-966a-4dc3-a9a3-5614b186af76&ts=1467119902109 2 2
+http://www.sribno.com 2 2
+http://lipetsk.xrus.org 2 2
+http://2gis.ru 1 1
+http://www.rbc.ru/politics/27/06/2016/5770434f9a79477dfadb93fc 1 1
+http://vladimir.xrus.org 1 1
+http://link.2gis.ru/1.2/6D75EAF9/online/20160601/project38/70000001023289971/2gis.ru/7AgB44G6G5I2G2G3H1H2Af5Afjn4B62C2I2312326uvhy77489A93G7A3I3G869g973G4472003438ABH4J5G3I3cA/place=1&sid=9dd82e79-0b22-41da-a444-ec7448588be3&user=5906291e-9773-4976-b2d8-74c5cfee7bda&ts=1467186845783 1 1
+http://iskalko.ru/firm.php 1 1
+http://www.morgenmad.ru/%D1%81%D0%B0%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%B8%2C-%D0%BF%D0%B0%D0%BD%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D1%82%D1%8B/400679-%D0%BF%D0%B0%D0%BD%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D1%82-%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9 1 1
+http://angarsk.xrus.org 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 6
+%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9+%d1%81%d1%82%d0%b8%d0%bb%d1%8c+%d0%bf%d0%b0%d0%bd%d1%81%d0%b8%d0%be%d0%bd%d0%b0%d1%82+%d0%b2+%d1%8d%d0%bd%d0%ba%d0%be%d0%bb%d0%be%d0%b2%d0%be 3
+%d0%bf%d0%b0%d0%bd%d1%81%d0%b8%d0%be%d0%bd%d0%b0%d1%82%d1%8b+%d0%bb%d0%b5%d0%bd%d0%b8%d0%bd%d0%b3%d1%80%d0%b0%d0%b4%d1%81%d0%ba%d0%be%d0%b9+%d0%be%d0%b1%d0%bb%d0%b0%d1%81%d1%82%d0%b8+%d0%b4%d0%bb%d1%8f+%d0%bf%d0%be%d0%b6%d0%b8%d0%bb%d1%8b%d1%85+%d0%bb%d0%b5%d0%b6%d0%b0%d1%87%d0%b8%d1%85+%d0%b1%d0%be%d0%bb%d1%8c%d0%bd%d1%8b%d1%85 2
+%d0%b4%d0%be%d0%bc%d0%b0+%d0%be%d1%82%d0%b4%d1%8b%d1%85%d0%b0+%d0%b4%d0%bb%d1%8f+%d0%bf%d0%b5%d0%bd%d1%81%d0%b8%d0%be%d0%bd%d0%b5%d1%80%d0%be%d0%b2+%d0%b2+%d0%bb%d0%b5%d0%bd%d0%b8%d0%bd%d0%b3%d1%80%d0%b0%d0%b4%d1%81%d0%ba%d0%be%d0%b9+%d0%be%d0%b1%d0%bb%d0%b0%d1%81%d1%82%d0%b8 1
+%d0%bf%d0%b0%d0%bd%d1%81%d0%b8%d0%be%d0%bd%d0%b0%d1%82%d1%8b+%d0%bb%d0%b5%d0%bd%d0%b8%d0%bd%d0%b3%d1%80%d0%b0%d0%b4%d1%81%d0%ba%d0%be%d0%b9+%d0%be%d0%b1%d0%bb%d0%b0%d1%81%d1%82%d0%b8+%d0%b4%d0%bb%d1%8f+%d0%bf%d0%be%d0%b6%d0%b8%d0%bb%d1%8b%d1%85+%d0%bb%d0%b5%d0%b6%d0%b0%d1%87%d0%b8%d1%85+%d0%b1%d0%be%d0%bb%d1%8c%d0%bd%d1%8b%d1%85+%d0%bd%d0%b0+%d1%84%d0%b8%d0%bd%d1%81%d0%ba%d0%be%d0%bc+%d0%b7%d0%b0%d0%bb%d0%b8%d0%b2%d0%b5+%d0%b8%d0%b4%d0%b8+%d0%bb%d0%b0%d0%b4%d0%be%d0%b6%d1%81%d0%ba%d0%be%d0%bc+%d0%be%d0%b7%d0%b5%d1%80%d0%b5 1
+%d0%b4%d0%be%d0%bc+%d0%bf%d1%80%d0%b5%d1%81%d1%82%d0%b0%d1%80%d0%b5%d0%bb%d1%8b%d1%85+%d1%81%d0%bf%d0%b1 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d1%8d%d0%bd%d0%ba%d0%be%d0%bb%d0%be%d0%b2%d0%be 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 25
+%d0%b2 5
+%d0%b4%d0%bb%d1%8f 4
+%d0%be%d0%b1%d0%bb%d0%b0%d1%81%d1%82%d0%b8 4
+%d0%bb%d0%b5%d0%bd%d0%b8%d0%bd%d0%b3%d1%80%d0%b0%d0%b4%d1%81%d0%ba%d0%be%d0%b9 4
+%d1%8d%d0%bd%d0%ba%d0%be%d0%bb%d0%be%d0%b2%d0%be 4
+%d0%b1%d0%be%d0%bb%d1%8c%d0%bd%d1%8b%d1%85 3
+%d0%bf%d0%b0%d0%bd%d1%81%d0%b8%d0%be%d0%bd%d0%b0%d1%82 3
+%d0%bf%d0%be%d0%b6%d0%b8%d0%bb%d1%8b%d1%85 3
+%d0%bb%d0%b5%d0%b6%d0%b0%d1%87%d0%b8%d1%85 3
+%d0%bf%d0%b0%d0%bd%d1%81%d0%b8%d0%be%d0%bd%d0%b0%d1%82%d1%8b 3
+%d0%b4%d0%be%d0%bc 1
+%d0%b7%d0%b0%d0%bb%d0%b8%d0%b2%d0%b5 1
+%d0%b8%d0%b4%d0%b8 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0 1
+%d0%bd%d0%b0 1
+%d0%be%d0%b7%d0%b5%d1%80%d0%b5 1
+%d0%bf%d1%80%d0%b5%d1%81%d1%82%d0%b0%d1%80%d0%b5%d0%bb%d1%8b%d1%85 1
+%d0%bb%d0%b0%d0%b4%d0%be%d0%b6%d1%81%d0%ba%d0%be%d0%bc 1
+%d0%b4%d0%be%d0%bc%d0%b0 1
+%d1%84%d0%b8%d0%bd%d1%81%d0%ba%d0%be%d0%bc 1
+%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9 3
+%d1%81%d0%bf%d0%b1 1
+%d1%81%d1%82%d0%b8%d0%bb%d1%8c 3
+%d0%be%d1%82%d0%b4%d1%8b%d1%85%d0%b0 1
+%d0%bf%d0%b5%d0%bd%d1%81%d0%b8%d0%be%d0%bd%d0%b5%d1%80%d0%be%d0%b2 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 11 3928
+206 13 11479364
+405 1 4485
+500 6 1516
+301 79 25246
+404 176 208738
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 95
+/PhotoAlbum/selebreties/preview/sel_9_small.jpg 2 -
+/images/rooms/two_person/two_bed_2.jpg 2 -
+/images/big/IMG_4.jpg 1 -
+/admin.php 1 http://russky-style.ru/admin.php
+/PhotoAlbum/casual/preview/c_10.jpg 1 -
+/servises/therapie 2 -
+/PhotoAlbum/casual/preview/c_3.jpg 1 -
+/.well-known/apple-app-site-association 1 -
+/prices.html 2 -
+/servises/transfer 4 -
+/PhotoAlbum/preview/C61B6195.jpg 1 -
+/PhotoAlbum/casual/preview/c_7.jpg 1 -
+/blog/wp-admin/setup-config.php 1 -
+/roadmap.html 3 -
+/PhotoAlbum/casual/original/c_3.jpg 2 -
+/PhotoAlbum/selebreties_2/big/16_bg.jpg 1 -
+/PhotoAlbum/selebreties/preview/sel_1_small.jpg 2 -
+/servises/goods 2 -
+/PhotoAlbum/church_2/big/3.jpg 1 -
+/images/big/IMG_10.jpg 1 -
+/backup/wp-admin/setup-config.php 1 -
+/PhotoAlbum/selebreties_2/big/2_bg.jpg 1 -
+/9b14ad9a-84aa-4fe9-a877-917f3f9cc382 1 -
+/images/nf1.jpg 1 -
+/index.php/admin 1 http://russky-style.ru/index.php/admin
+/PhotoAlbum/selebreties/original/sel_2.jpg 1 -
+/redirect 1 -
+/PhotoAlbum/casual/original/c_5.jpg 1 -
+/go/url=http://mail.ru 2 -
+/images/reviews/sidelka_otzyv.jpg 1 -
+/map 7 -
+/prices 11 http://www.sity-help.com/spb/org/236676/
+/images/big/IMG_1.jpg 2 https://yandex.ru/images/search
+/blog/wordpress/wp-admin/setup-config.php 1 -
+/PhotoAlbum/casual/original/c_8.jpg 1 -
+/PhotoAlbum/selebreties/preview/sel_11_small.jpg 1 -
+/servises/sport 3 -
+/servises/comfort_living 3 -
+/PhotoAlbum/casual/original/c_12.jpg 1 -
+/booking.html 2 -
+/bitrix/admin 1 http://russky-style.ru/bitrix/admin
+/PhotoAlbum/selebreties/original/sel_13.jpg 1 -
+/servises/doctor_coming 3 -
+/PhotoAlbum/C61B6354.jpg 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/wp-login.php 1 http://russky-style.ru/wp-login.php
+/PhotoAlbum/selebreties/original/sel_9.jpg 1 -
+/css/style_rus.css 1 https://russky-style.ru/
+/wordpress/wordpress/wp-admin/setup-config.php 1 -
+/news/wp-admin/setup-config.php 1 -
+/.well-known/assetlinks.json 2 -
+/font-awesome-4.4.0/css/font-awesome.min.css 1 https://russky-style.ru/
+/666666 1 -
+/PhotoAlbum/casual/preview/c_2.jpg 1 -
+/servises/social 1 -
+/PhotoAlbum/selebreties/preview/sel_3_small.jpg 2 -
+/otzyvy 7 -
+/PhotoAlbum/church_2/big/5.jpg 1 -
+/redirect.php 1 -
+/index.html 3 -
+/PhotoAlbum/casual/preview/c_14.jpg 2 -
+/PhotoAlbum/selebreties/preview/sel_12_small.jpg 1 -
+/PhotoAlbum/selebreties/original/sel_1.jpg 1 -
+/images/rooms/two_person/two_bed_1.jpg 2 https://www.google.ru/
+/PhotoAlbum/casual/original/c_1.jpg 3 -
+/PhotoAlbum/casual/original/c_7.jpg 1 -
+/images/news/church/big/1.jpg 1 -
+/PhotoAlbum/C61B6209.jpg 2 -
+/images/IMG_1.jpg 5 https://yandex.ru/images/search
+/images/IMG_7.jpg 1 -
+/review/img/skrepka.png 2 http://russky-style.ru/review/show
+/images/IMG_2.jpg 1 -
+/images/news/church/big/3.jpg 1 -
+/PhotoAlbum/church_2/big/1.jpg 1 -
+/version.php 1 -
+/wp/wp-admin/setup-config.php 1 -
+/info.html 2 -
+/css/bootstrap.min.css 1 https://russky-style.ru/
+/admin 1 -
+/img%20%20%20%20%20%20%20%20%20%3Cspan%20class= 8 http://russky-style.ru/articles
+/images/rooms/one_person/one_bed_1.jpg 2 -
+/PhotoAlbum/selebreties/original/sel_12.jpg 1 -
+/11783369-205f-4097-a4e7-c8b3a06a7889 1 -
+/1f9f8c9a-7ba7-4bcb-ab99-efcd0923777d 1 -
+/tds/version.php 1 http://russky-style.ru/version.php
+/PhotoAlbum/casual/original/c_2.jpg 1 -
+/servises/gigiene 3 -
+/servises/complex_viewing 4 -
+/servises/dosug 1 -
+/servises/24_hours_servise 3 -
+/apple-app-site-association 2 -
+/PhotoAlbum/selebreties/preview/sel_2_small.jpg 1 -
+/servises/dietic_food 4 -
+/go.php 3 -
+/PhotoAlbum/selebreties/original/sel_10.jpg 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 80
+5.18.94.104 113 1434 109951609 20160630091334
+5.18.142.67 15 348 27285625 20160629102054
+81.23.115.194 10 311 35316810 20160630141624
+81.23.117.234 9 113 10568204 20160629172218
+178.70.230.180 9 173 30841265 20160627092032
+78.25.122.231 9 105 363739 20160627143847
+178.252.118.106 8 131 14501981 20160630004535
+84.52.76.211 8 208 37886153 20160630182901
+80.247.180.42 7 95 13449502 20160627141628
+109.167.198.202 7 43 2669636 20160627095329
+178.70.232.108 2 62 11398347 20160627224656
+82.179.71.17 1 59 11387459 20160630160116
+62.210.94.38 2 2 53156 20160629180427
+178.136.225.46 2 2 40231 20160629082726
+178.252.109.60 1 59 11387407 20160627140152
+188.242.97.188 3 76 13166430 20160628192158
+95.213.144.142 3 30 2068406 20160627083050
+109.205.252.191 6 81 22849512 20160628163246
+95.213.144.140 0 1 102019 
+78.25.122.57 3 111 14486466 20160627223931
+176.97.36.16 2 43 6533238 20160630162717
+193.104.69.250 2 33 5398255 20160627130153
+185.115.96.54 5 5 99821 20160629020324
+188.162.65.59 2 81 13207577 20160628201029
+46.118.159.221 2 2 53156 20160630233825
+178.137.84.39 1 1 26578 20160629034240
+93.100.139.214 3 140 13344384 20160627143321
+46.119.118.92 1 1 26578 20160630035005
+176.77.49.238 1 1 26578 20160628195313
+176.97.37.136 2 81 13207503 20160630165404
+188.242.63.105 3 39 2597549 20160627095211
+109.167.147.165 5 125 11571926 20160627163453
+188.243.59.111 2 81 13207451 20160627141135
+89.110.53.83 3 29 2178396 20160627022124
+78.25.123.203 7 130 25447379 20160627125344
+91.108.63.53 3 125 24539782 20160630135234
+37.229.252.195 3 3 79734 20160630221422
+109.167.253.99 5 76 11532966 20160628002423
+178.67.42.37 1 18 1826761 20160627121600
+62.32.91.106 5 41 2627831 20160627094622
+217.66.158.0 3 31 2163915 20160627072747
+176.77.49.241 1 1 26578 20160628222756
+83.68.46.2 1 59 11387459 20160627150700
+217.118.78.85 7 98 25132618 20160627214239
+213.110.201.248 5 86 13272240 20160629164303
+78.25.121.206 5 32 1916341 20160627093515
+198.7.60.87 1 1 27869 20160627082632
+178.137.83.34 2 2 53156 20160628162435
+176.193.152.154 1 1 26578 20160629001449
+176.15.49.36 1 1 26578 20160630123618
+80.64.173.162 1 1 17471 20160627012533
+217.66.156.150 3 140 13344436 20160629194847
+37.48.78.212 1 1 26578 20160628001938
+78.25.120.129 1 17 82466 20160627125759
+5.18.76.168 6 86 22934182 20160627130348
+94.72.19.218 2 81 13207503 20160627194831
+94.23.230.134 1 1 26578 20160630175159
+94.50.0.128 1 59 11387407 20160627130642
+95.221.222.203 1 11 136933 20160629001111
+91.199.153.3 3 31 2186131 20160627121604
+87.245.176.234 2 62 11437624 20160627173753
+79.142.80.26 1 59 11387459 20160629105406
+5.164.86.109 1 29 2081423 20160627054635
+109.167.205.25 1 59 11387459 20160627205225
+46.53.160.230 1 1 26578 20160630122243
+91.189.112.7 3 3 79734 20160630185822
+176.8.89.183 3 3 79734 20160630234234
+178.137.164.15 3 3 79734 20160630234144
+46.32.66.52 4 40 2622178 20160627085053
+78.25.122.255 7 77 1108130 20160627130410
+78.25.123.163 3 121 15851779 20160627173722
+78.25.120.59 1 59 11387459 20160628104012
+188.244.46.205 1 59 11387459 20160629001945
+2.94.158.88 1 59 11387459 20160629025250
+95.181.171.43 4 4 106312 20160627131936
+82.145.223.149 1 44 2029287 20160627173343
+95.163.107.73 1 1 26578 20160628130719
+95.55.187.184 2 25 7382084 20160627215730
+78.25.120.163 1 53 11334695 20160629091015
+109.254.49.117 2 2 40231 20160628131600
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20160627 231 3515 378034611 44
+20160628 36 682 106940154 19
+20160629 50 985 131975689 18
+20160630 49 820 128963359 19
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 10
+2mn-5mn 12
+30s-2mn 10
+0s-30s 61
+15mn-30mn 3
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 32
+/ 150 4009986 94 53
+/servises 41 1121427 4 12
+/about 26 381963 0 3
+/galery 24 280584 0 1
+/reviews 23 413565 0 5
+/contacts 21 212520 0 9
+/articles 9 107547 1 1
+/prices 6 147774 0 3
+/font-awesome-4.4.0/fonts/fontawesome-webfont.woff 5 406420 0 2
+/fonts/glyphicons-halflings-regular.woff2 5 90140 0 0
+/photo 1 42357 0 0
+/galery/36 4 64876 0 0
+/news/32 4 55079 0 0
+/galery/40 1 20528 0 0
+/map 2 27872 0 1
+/galery/39 2 37886 0 0
+/admin 1 10520 0 0
+/galery/41 1 13779 0 0
+/news/31 4 54569 0 2
+/otzyvy 2 34922 1 2
+/font-awesome-4.4.0/fonts/fontawesome-webfont.woff2 5 322320 0 1
+/galery/37 5 49850 0 0
+/sitemap 1 18417 0 0
+/fonts/glyphicons-halflings-regular.woff 4 93696 0 1
+/review/show 2 42435 0 0
+/galery/35 4 67696 0 1
+/home 5 139345 0 0
+/font-awesome-4.4.0/fonts/fontawesome-webfont.eot 2 137750 0 1
+/login 1 4757 0 0
+/fonts/glyphicons-halflings-regular.eot 2 40254 0 0
+/articles/5 1 16459 0 0
+/news/8 2 27306 0 2
+END_SIDER

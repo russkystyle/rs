@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/test.russky-style.ru/webstat"
+AuthUserFile /var/www/u0094289/data/etc/37096551.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
